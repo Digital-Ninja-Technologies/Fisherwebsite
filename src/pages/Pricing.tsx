@@ -279,8 +279,8 @@ const Pricing = () => {
           {/* Plans */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {(distributionPlans[activeTab as keyof typeof distributionPlans] || []).map((plan) => (
-              <div key={plan.name} className={`glass-card rounded-2xl p-8 relative ${plan.popular ? "ring-2 ring-primary" : ""}`}>
-                {plan.popular && (
+              <div key={plan.name} className={`glass-card rounded-2xl p-8 relative ${"popular" in plan && plan.popular ? "ring-2 ring-primary" : ""}`}>
+                {"popular" in plan && plan.popular && (
                   <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-xs font-bold">
                     Most Popular
                   </span>
