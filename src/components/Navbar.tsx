@@ -49,7 +49,7 @@ const Navbar = () => {
 
           {/* CTA */}
           <a
-            href="https://wa.me/message/UAKWEBDKKOSVF1"
+            href="https://WhatsApp.com"
             className="hidden md:inline-flex items-center px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
           >
             Let's Go
@@ -82,7 +82,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="https://wa.me/message/UAKWEBDKKOSVF1"
+              href="https://WhatsApp.com"
               className="block text-center px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium"
             >
               Let's Go
