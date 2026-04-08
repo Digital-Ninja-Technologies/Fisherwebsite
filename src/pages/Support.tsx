@@ -46,7 +46,7 @@ const faqs = [
 
 const socials = [
   { label: "Facebook", href: "https://facebook.com/ThePromoBoy" },
-  { label: "WhatsApp", href: "https://wa.me/message/UAKWEBDKKOSVF1" },
+  { label: "WhatsApp", href: "https://WhatsApp.com" },
   { label: "Instagram", href: "https://instagram.com/thepromoboy" },
   { label: "Twitter/X", href: "https://x.com/thepromoboy" },
   { label: "LinkedIn", href: "https://linkedin.com/in/thepromoboy" },
@@ -71,7 +71,7 @@ const Support = () => {
           <p className="text-lg text-muted-foreground mb-8">
             Got a question or running into something unexpected? Our team is just a message away.
           </p>
-          <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
+          <a href="https://WhatsApp.com" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
             Get in touch <ArrowRight size={18} />
           </a>
         </div>
@@ -102,7 +102,7 @@ const Support = () => {
           <p className="text-muted-foreground mb-8">
             Reach out directly and we'll get back to you with the info you need.
           </p>
-          <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold mb-8">
+          <a href="https://WhatsApp.com" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold mb-8">
             Message us <ArrowRight size={18} />
           </a>
           <div className="flex flex-wrap gap-3 justify-center">
