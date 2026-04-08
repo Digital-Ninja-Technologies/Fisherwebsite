@@ -6,8 +6,8 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center text-background font-bold text-sm">P</div>
-              <span className="text-foreground font-bold">The Promo Boy</span>
+              <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center text-background font-bold text-sm">F</div>
+              <span className="text-foreground font-bold">FisherPromo</span>
             </div>
             <p className="text-sm text-muted-foreground mb-6">
               Seamless music delivery and marketing solutions built for creators

@@ -26,8 +26,8 @@ const Navbar = () => {
         <div className="container flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-foreground font-bold text-lg">
-            <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center text-background font-bold text-sm">P</div>
-            The Promo Boy
+            <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center text-background font-bold text-sm">F</div>
+            FisherPromo
           </Link>
 
           {/* Desktop links */}
