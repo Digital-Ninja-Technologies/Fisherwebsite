@@ -7,43 +7,43 @@ import galaxyBg from "@/assets/galaxy-bg.jpg";
 const steps = [
   {
     num: "1",
-    title: "Send Us Your Music",
-    desc: "Send us your tracks, artwork, lyrics and release information and your music will be scheduled for a release date that you get to pick.",
+    title: "Submit Your Tracks",
+    desc: "Upload your audio files, cover art, and release details. Pick a launch date that works for you and we'll handle the rest.",
     icon: Send,
   },
   {
     num: "2",
-    title: "We Send It to Stores",
-    desc: "We will send your release to all of the selected stores and streaming services worldwide and have your music live in no time.",
+    title: "We Deliver Everywhere",
+    desc: "Your release is pushed to every major streaming service and digital storefront worldwide within days.",
     icon: Music,
   },
   {
     num: "3",
-    title: "Make Your Money",
-    desc: "Every time you get streams or downloads on these streaming platforms, you get paid, and can get that money when you want.",
+    title: "Collect Your Revenue",
+    desc: "Each play and download generates earnings that flow directly to your account — withdraw whenever you like.",
     icon: DollarSign,
   },
 ];
 
 const features = [
   {
-    title: "Put yourself out there",
-    desc: "Get your tracks on major streaming platforms like Spotify, Apple Music, Amazon, Deezer, and more. Allow fans use your songs on major socials including Facebook, Instagram, TikTok and Snapchat.",
+    title: "Reach listeners globally",
+    desc: "Your tracks go live on leading platforms like Spotify, Apple Music, Amazon Music, Deezer, and beyond. Plus, fans can use your songs across social apps including Instagram, TikTok, and Snapchat.",
     icon: Music,
   },
   {
-    title: "Distribute Your Music Videos",
-    desc: "Expand your audience by distributing your music videos through our platform. Reach new fans by getting your music videos on Vevo, Apple Music, YouTube, Tidal and Boomplay.",
+    title: "Video distribution included",
+    desc: "Broaden your audience by delivering music videos through our network. Get your visuals onto Vevo, Apple Music, YouTube, Tidal, and Boomplay effortlessly.",
     icon: Video,
   },
   {
-    title: "Get your lyrics time-synced",
-    desc: "Make it enjoyable for fans listening to your music by activating time-synced lyrics on your songs. Allow listeners feel the passion in your song and sing along.",
+    title: "Time-synced lyric display",
+    desc: "Enhance the listening experience with synchronized lyrics that let fans follow along word by word and feel every beat of your song.",
     icon: Mic2,
   },
   {
-    title: "Keep 100% Of Your Earnings",
-    desc: "We believe artists should maintain their independence, maintain full control over their masters, and not be constrained by unethical agreements and dubious commercial contracts.",
+    title: "You own everything you earn",
+    desc: "We champion creative independence — you retain total control of your master recordings and are never locked into restrictive agreements or hidden fees.",
     icon: Shield,
   },
 ];
@@ -61,17 +61,17 @@ const Distribution = () => {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Distribute your music worldwide
+            Deliver your releases across the globe
           </h1>
           <p className="text-lg text-muted-foreground mb-10">
-            Get your music on Spotify, Apple Music, Deezer, YouTube, Tidal, Instagram, TikTok and more. Keep 100% ownership of your music and stay in control of your career.
+            Place your catalog on Spotify, Apple Music, Deezer, YouTube, Tidal, TikTok, and dozens more — while maintaining complete ownership and creative freedom.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
-              Get started <ArrowRight size={18} />
+              Begin now <ArrowRight size={18} />
             </a>
             <a href="/pricing" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border border-border text-foreground font-semibold hover:bg-secondary transition-colors">
-              See pricing
+              View plans
             </a>
           </div>
         </div>
@@ -80,12 +80,12 @@ const Distribution = () => {
       {/* Steps */}
       <section className="py-20 px-4">
         <div className="container">
-          <p className="text-sm text-primary font-semibold uppercase tracking-wider mb-2 text-center">Steps to take</p>
+          <p className="text-sm text-primary font-semibold uppercase tracking-wider mb-2 text-center">The process</p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-14">
-            How to sell your music
+            Three steps to going live
           </h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
-            Getting your music into stores and on streaming sites and beginning to earn money from it has never been simpler.
+            Launching your music on streaming platforms and earning from every play has never been more straightforward.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step) => (
@@ -111,7 +111,7 @@ const Distribution = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-4">{feat.title}</h2>
                 <p className="text-muted-foreground mb-6">{feat.desc}</p>
                 <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
-                  Get started <ArrowRight size={16} />
+                  Begin now <ArrowRight size={16} />
                 </a>
               </div>
               <div className="flex-1 flex justify-center">

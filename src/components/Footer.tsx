@@ -10,24 +10,24 @@ const Footer = () => {
               <span className="text-foreground font-bold">The Promo Boy</span>
             </div>
             <p className="text-sm text-muted-foreground mb-6">
-              Music Distribution and Promotions at your fingertips
+              Seamless music delivery and marketing solutions built for creators
             </p>
             <a
               href="#"
               className="inline-flex items-center px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium"
             >
-              Get Started
+              Begin Now
             </a>
           </div>
 
           {/* Products */}
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">Products</h4>
+            <h4 className="text-sm font-semibold text-foreground mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Music Distribution</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Promotions</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Lyrics Update</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Pre-Save Links</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Release Delivery</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Marketing Campaigns</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Lyric Sync</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Pre-Release Saves</a></li>
             </ul>
           </div>
 
@@ -36,9 +36,9 @@ const Footer = () => {
             <h4 className="text-sm font-semibold text-foreground mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Our Mission</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Terms & Conditions</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Reach Out</a></li>
             </ul>
           </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">Community</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">FAQs</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Help Center</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">WhatsApp</a></li>
             </ul>
           </div>

@@ -6,17 +6,16 @@ const CTASection = () => {
       <div className="container">
         <div className="glass-card rounded-3xl p-10 md:p-16 text-center glow-purple">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Want your music heard?
+            Ready to amplify your reach?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            Get your songs on Digital Music Platforms worldwide while maintaining control over your masters and profits.
-            Get access to placements on popular playlists and have the opportunity to increase your fan base and revenue.
+            Place your tracks on every major streaming service across the globe. Retain full ownership of your catalog and earnings while unlocking playlist opportunities to expand your listener base.
           </p>
           <a
             href="#"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
           >
-            Get started
+            Start now
             <ArrowRight size={18} />
           </a>
         </div>

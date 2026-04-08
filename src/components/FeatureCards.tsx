@@ -1,6 +1,6 @@
 import moneyBag from "@/assets/money-bag.png";
 import phonesMockup from "@/assets/phones-mockup.png";
-import { Music, Globe, Headphones } from "lucide-react";
+import { Music } from "lucide-react";
 
 const FeatureCards = () => {
   return (
@@ -8,9 +8,9 @@ const FeatureCards = () => {
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Monetize */}
         <div className="glass-card rounded-2xl p-8 flex flex-col">
-          <h3 className="text-xl font-bold text-foreground mb-2">Monetize your songs</h3>
+          <h3 className="text-xl font-bold text-foreground mb-2">Earn from every stream</h3>
           <p className="text-muted-foreground text-sm mb-6">
-            Keep 100% of your royalties and maintain full control over your song masters.
+            Collect all royalties yourself and hold on to complete ownership of your recordings.
           </p>
           <div className="mt-auto flex justify-center">
             <img src={moneyBag} alt="Monetize" loading="lazy" width={200} height={200} className="w-48" />
@@ -19,9 +19,9 @@ const FeatureCards = () => {
 
         {/* Distribution */}
         <div className="glass-card rounded-2xl p-8 flex flex-col">
-          <h3 className="text-xl font-bold text-foreground mb-2">Worldwide Music Distribution</h3>
+          <h3 className="text-xl font-bold text-foreground mb-2">Global streaming delivery</h3>
           <p className="text-muted-foreground text-sm mb-6">
-            Get your song on all the major streaming platforms worldwide and put yourself out there.
+            Place your releases across every leading platform so listeners everywhere can find you.
           </p>
           <div className="mt-auto grid grid-cols-4 gap-3">
             {["Spotify", "Apple Music", "Amazon", "Tidal", "YouTube", "Deezer", "TikTok", "SoundCloud"].map((name) => (
@@ -34,9 +34,9 @@ const FeatureCards = () => {
 
         {/* Promotions */}
         <div className="glass-card rounded-2xl p-8 flex flex-col">
-          <h3 className="text-xl font-bold text-foreground mb-2">Top Notch Promotions</h3>
+          <h3 className="text-xl font-bold text-foreground mb-2">Strategic music marketing</h3>
           <p className="text-muted-foreground text-sm mb-6">
-            Get your music the buzz it deserves on Editorial and User Curated Playlists.
+            Land placements on editorial and independent playlists that drive real engagement.
           </p>
           <div className="mt-auto flex justify-center">
             <img src={phonesMockup} alt="Promotions" loading="lazy" width={300} height={240} className="w-64" />
