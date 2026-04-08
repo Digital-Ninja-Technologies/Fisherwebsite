@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
       {/* Top banner */}
       <div className="bg-primary/20 border-b border-primary/20 py-2 text-center text-sm text-foreground">
-        For Independent Artists and Labels ✨
+        Built for independent creators & labels ✨
       </div>
 
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
@@ -52,7 +52,7 @@ const Navbar = () => {
             href="https://wa.me/message/UAKWEBDKKOSVF1"
             className="hidden md:inline-flex items-center px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
           >
-            Start Now
+            Let's Go
           </a>
 
           {/* Mobile toggle */}
@@ -85,7 +85,7 @@ const Navbar = () => {
               href="https://wa.me/message/UAKWEBDKKOSVF1"
               className="block text-center px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium"
             >
-              Start Now
+              Let's Go
             </a>
           </div>
         )}

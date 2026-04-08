@@ -7,12 +7,12 @@ const ArtistGallery = () => {
   return (
     <section className="py-20 px-4 overflow-hidden">
       <div className="container mb-12">
-        <p className="text-sm text-primary font-medium mb-3 text-center">Gallery of the Greats</p>
+        <p className="text-sm text-primary font-medium mb-3 text-center">Artist spotlight</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
-          We've promoted songs by some of the biggest artists
+          Trusted by rising and established talent alike
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-          A lot of top tier artists have been promoted using our services. Tap in today to get your music heard.
+          Creators across genres rely on our platform to reach new audiences. Join them and let your music travel further.
         </p>
       </div>
 

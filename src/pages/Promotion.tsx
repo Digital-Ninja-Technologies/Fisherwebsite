@@ -5,45 +5,45 @@ import { ArrowRight, ListMusic, TrendingUp, Tv, Radio, Share2, FileText, Music }
 import galaxyBg from "@/assets/galaxy-bg.jpg";
 
 const promoSteps = [
-  { num: "1", title: "Make Good Music", desc: "Create great music and bring your artistic vision to life and connect with your audience through captivating melodies and lyrics" },
-  { num: "2", title: "Promote It With Us", desc: "Our promotions ensure your tracks reach the right audience, helping you grow your fan base and gain the recognition you deserve" },
-  { num: "3", title: "Enjoy The Growth", desc: "See your fan base expand with our promotional strategies. Watch your audience grow and engage with your music like never before" },
+  { num: "1", title: "Create compelling music", desc: "Pour your creativity into tracks that resonate — strong artistry is the foundation of every successful campaign." },
+  { num: "2", title: "Let us amplify it", desc: "We deploy targeted strategies to place your music where engaged listeners are already paying attention." },
+  { num: "3", title: "Watch your audience grow", desc: "Sit back as your streams climb, your followers multiply, and new fans discover what you're all about." },
 ];
 
 const services = [
   {
-    title: "Editorial & User Curated Playlists",
-    desc: "Enhance your visibility with our Editorial and User Curated Playlist promotion. Get your songs featured on popular playlists, increase your reach and connect with new audiences.",
+    title: "Curated & editorial playlist spots",
+    desc: "Boost discoverability by landing on hand-picked playlists. We pitch your tracks to both editorial teams and independent curators to widen your listening base.",
     icon: ListMusic,
   },
   {
-    title: "Top the Charts with Your Songs",
-    desc: "Hit the top of the charts with your song! Get the exposure you need to climb the rankings and capture the spotlight on Apple Music's Top 100, Top 25, Top 10 and Audiomack's Top 100 and Top 50.",
+    title: "Chart climbing campaigns",
+    desc: "Give your release the push it needs to break into top charts on Apple Music, Audiomack, and other major platforms — capturing attention right where it matters.",
     icon: TrendingUp,
   },
   {
-    title: "Promote Your Music Videos",
-    desc: "Maximise the impact of your music videos when you promote it on top television stations like Soundcity TV, MTV Base, Trace TV, Hip TV, Afro TV, Pop Central, Silverbird TV, Rave TV.",
+    title: "Television & visual exposure",
+    desc: "Amplify your music videos through premium TV channels and visual media outlets to reach audiences beyond the digital space.",
     icon: Tv,
   },
   {
-    title: "Top Boomplay Promotions",
-    desc: "Get access to Exclusive Boomplay Promotions from Pop-Up, In-App Notifications to Top-tier Editorial Playlists and trending on the New Release and Featured Position categories.",
+    title: "Platform-specific boosts",
+    desc: "Unlock dedicated promotional packages on Boomplay — from in-app pop-ups and push notifications to featured sections and trending placements.",
     icon: Music,
   },
   {
-    title: "Get Played On Radio Stations",
-    desc: "Get the exposure you need by getting your music on popular radio stations across the country and beyond.",
+    title: "Radio airtime campaigns",
+    desc: "Get your tracks spinning on influential radio stations locally and internationally to reach listeners who tune in daily.",
     icon: Radio,
   },
   {
-    title: "Go Viral On TikTok",
-    desc: "Do you have a sound or song that you want to get viral on TikTok? We can help you achieve that by getting macro, micro and major influencers to create videos using your sound.",
+    title: "Short-form video virality",
+    desc: "Want your sound trending on TikTok? We coordinate with influencers of all sizes to create content around your track and spark organic momentum.",
     icon: Share2,
   },
   {
-    title: "Get Featured On Popular Blogs",
-    desc: "Boost your visibility and reach a wider audience by getting featured on the most popular blogs. Elevate your music, share your story, and connect with readers who are eager to discover what's trending.",
+    title: "Blog & press coverage",
+    desc: "Strengthen your brand by securing write-ups on widely-read music blogs and publications. Tell your story to readers actively seeking fresh talent.",
     icon: FileText,
   },
 ];
@@ -61,17 +61,17 @@ const Promotion = () => {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Promote your music to new heights 🚀
+            Take your music further than ever 🚀
           </h1>
           <p className="text-lg text-muted-foreground mb-10">
-            Grow your fanbase with our amazing promotional services which includes Playlisting Services, Radio and TV Airplays, TikTok Campaigns and more.
+            Expand your listener base through playlist campaigns, broadcast placements, influencer activations, and more.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
-              Get started <ArrowRight size={18} />
+              Launch a campaign <ArrowRight size={18} />
             </a>
             <a href="/pricing" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border border-border text-foreground font-semibold hover:bg-secondary transition-colors">
-              See pricing
+              View rates
             </a>
           </div>
         </div>
@@ -80,10 +80,10 @@ const Promotion = () => {
       {/* Steps */}
       <section className="py-20 px-4">
         <div className="container">
-          <p className="text-sm text-primary font-semibold uppercase tracking-wider mb-2 text-center">What we offer</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Promotional Services</h2>
+          <p className="text-sm text-primary font-semibold uppercase tracking-wider mb-2 text-center">How it works</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Marketing made simple</h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
-            Boost your reach and grow your audience with our expert music promotional services.
+            Amplify your reach and cultivate a loyal fanbase with our proven promotional strategies.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
             {promoSteps.map((step) => (
@@ -106,7 +106,7 @@ const Promotion = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-4">{svc.title}</h2>
                 <p className="text-muted-foreground mb-6">{svc.desc}</p>
                 <a href="/pricing" className="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
-                  See pricing <ArrowRight size={16} />
+                  View rates <ArrowRight size={16} />
                 </a>
               </div>
               <div className="flex-1 flex justify-center">

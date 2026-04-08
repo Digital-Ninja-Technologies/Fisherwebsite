@@ -10,166 +10,166 @@ const distributionTabs = ["Single", "EPs", "Albums", "Ext."];
 const distributionPlans = {
   Single: [
     {
-      name: "Starter Artist",
-      desc: "Perfect for artists releasing their first few singles or projects.",
+      name: "Starter",
+      desc: "Great for first-time releases or artists testing the waters.",
       price: "NGN 10,000",
-      unit: "1 song",
+      unit: "1 track",
       color: "text-green-400",
       benefits: [
-        "Distribution to ALL stores (Spotify, Apple Music, Facebook, IG, Snap, TikTok etc.)",
-        "Standard release timeline (10 working days)",
-        "Basic Release Fanlink",
-        "Lyrics sent to Apple Music (Not synced)",
-        "Keep 100% royalties (after processing costs)",
-        "Email and chat support (24-72 Hrs)",
-        "Basic release scheduling (Release dates)",
+        "Delivery to all major platforms (Spotify, Apple Music, TikTok, etc.)",
+        "Standard processing window (10 business days)",
+        "Simple fan link for your release",
+        "Static lyrics submitted to Apple Music",
+        "Retain 100% of streaming royalties",
+        "Email & chat assistance (24–72 hr response)",
+        "Flexible release date scheduling",
       ],
     },
     {
-      name: "Emerging Artist",
-      desc: "Ideal for artists ready to scale, build fanbase, & start professional promotion.",
+      name: "Growth",
+      desc: "Built for artists who are ready to level up and build momentum.",
       price: "NGN 20,000",
-      unit: "1 song",
+      unit: "1 track",
       popular: true,
       color: "text-gold",
       benefits: [
-        "Everything in Starter Artist plus:",
-        "Faster distribution (5-7 working days)",
-        "Pre-save link that auto-converts at release",
-        "Access to Songstats dashboard for enhanced analytics",
-        "Lyrics sent to Apple Music (Not synced)",
-        "Keep 100% royalties (after processing costs)",
-        "Release feedback (per release)",
-        "Email and chat support (24-72 Hrs)",
+        "All Starter perks included, plus:",
+        "Expedited processing (5–7 business days)",
+        "Auto-converting pre-release save link",
+        "Advanced analytics via Songstats",
+        "Static lyrics submitted to Apple Music",
+        "Retain 100% of streaming royalties",
+        "Professional release feedback",
+        "Email & chat assistance (24–72 hr response)",
       ],
     },
     {
-      name: "Established Artist",
-      desc: "Designed for pro artists, managers, & labels that need visibility & priority placement.",
+      name: "Professional",
+      desc: "Tailored for seasoned artists, managers, and labels seeking maximum exposure.",
       price: "NGN 40,000",
-      unit: "1 song",
+      unit: "1 track",
       color: "text-blue-400",
       benefits: [
-        "Everything in Emerging Artist plus:",
-        "Priority distribution (3-5 working days)",
-        "Editorial pitching & DSP marketing submissions",
-        "Lyrics synced to stores (released & upcoming songs)",
-        "Sync licensing pitches (film, TV, brand placements)",
-        "Access to Songstats dashboard for enhanced analytics",
-        "Personalised release plan & exclusive perks",
-        "Priority email and chat support (instant)",
-        "Keep 100% royalties (after processing costs)",
+        "All Growth perks included, plus:",
+        "Priority processing (3–5 business days)",
+        "Editorial submissions & platform marketing",
+        "Time-synced lyrics for current and future releases",
+        "Sync licensing opportunities (film, TV, brands)",
+        "Advanced analytics via Songstats",
+        "Custom release strategy & VIP perks",
+        "Instant priority support",
+        "Retain 100% of streaming royalties",
       ],
     },
   ],
   EPs: [
     {
-      name: "Starter Artist",
-      desc: "Perfect for EP releases.",
+      name: "Starter",
+      desc: "Ideal for compact EP releases.",
       price: "NGN 25,000",
-      unit: "2-6 songs",
+      unit: "2–6 tracks",
       color: "text-green-400",
       benefits: [
-        "Distribution to ALL stores",
-        "Standard release timeline (10 working days)",
-        "Basic Release Fanlink",
-        "Keep 100% royalties (after processing costs)",
+        "Delivery to all major platforms",
+        "Standard processing (10 business days)",
+        "Simple fan link included",
+        "Retain 100% of streaming royalties",
       ],
     },
     {
-      name: "Emerging Artist",
-      desc: "Scale your EP releases.",
+      name: "Growth",
+      desc: "Take your EP rollout to the next level.",
       price: "NGN 45,000",
-      unit: "2-6 songs",
+      unit: "2–6 tracks",
       popular: true,
       color: "text-gold",
       benefits: [
-        "Everything in Starter Artist plus:",
-        "Faster distribution (5-7 working days)",
-        "Pre-save link",
-        "Songstats analytics access",
+        "All Starter perks included, plus:",
+        "Expedited processing (5–7 business days)",
+        "Pre-release save link",
+        "Songstats analytics dashboard",
       ],
     },
     {
-      name: "Established Artist",
-      desc: "Full-service EP release.",
+      name: "Professional",
+      desc: "Complete EP launch package.",
       price: "NGN 80,000",
-      unit: "2-6 songs",
+      unit: "2–6 tracks",
       color: "text-blue-400",
       benefits: [
-        "Everything in Emerging Artist plus:",
-        "Priority distribution (3-5 working days)",
-        "Editorial pitching",
+        "All Growth perks included, plus:",
+        "Priority processing (3–5 business days)",
+        "Editorial playlist submissions",
         "Sync licensing pitches",
       ],
     },
   ],
   Albums: [
     {
-      name: "Starter Artist",
-      desc: "Perfect for album releases.",
+      name: "Starter",
+      desc: "Straightforward album delivery.",
       price: "NGN 40,000",
-      unit: "7-20 songs",
+      unit: "7–20 tracks",
       color: "text-green-400",
       benefits: [
-        "Distribution to ALL stores",
-        "Standard release timeline (10 working days)",
-        "Basic Release Fanlink",
-        "Keep 100% royalties (after processing costs)",
+        "Delivery to all major platforms",
+        "Standard processing (10 business days)",
+        "Simple fan link included",
+        "Retain 100% of streaming royalties",
       ],
     },
     {
-      name: "Emerging Artist",
-      desc: "Scale your album releases.",
+      name: "Growth",
+      desc: "Elevate your album campaign.",
       price: "NGN 70,000",
-      unit: "7-20 songs",
+      unit: "7–20 tracks",
       popular: true,
       color: "text-gold",
       benefits: [
-        "Everything in Starter Artist plus:",
-        "Faster distribution (5-7 working days)",
-        "Pre-save link",
-        "Songstats analytics access",
+        "All Starter perks included, plus:",
+        "Expedited processing (5–7 business days)",
+        "Pre-release save link",
+        "Songstats analytics dashboard",
       ],
     },
     {
-      name: "Established Artist",
-      desc: "Full-service album release.",
+      name: "Professional",
+      desc: "Premium album release experience.",
       price: "NGN 120,000",
-      unit: "7-20 songs",
+      unit: "7–20 tracks",
       color: "text-blue-400",
       benefits: [
-        "Everything in Emerging Artist plus:",
-        "Priority distribution (3-5 working days)",
-        "Editorial pitching",
+        "All Growth perks included, plus:",
+        "Priority processing (3–5 business days)",
+        "Editorial playlist submissions",
         "Sync licensing pitches",
       ],
     },
   ],
   "Ext.": [
     {
-      name: "Music Publishing Setup",
-      desc: "Music Publishing Setup (per artist) + Regular Sync Offers",
+      name: "Publishing Setup",
+      desc: "Full music publishing registration per artist with ongoing sync opportunities",
       price: "NGN 200,000",
       unit: "per artist",
       color: "text-primary",
       benefits: [
-        "Full publishing setup",
-        "Regular sync offers",
-        "Film, TV & brand placements",
+        "Complete publishing registration",
+        "Recurring sync deal offers",
+        "Film, television & brand placement pipeline",
       ],
     },
     {
-      name: "Music Video Distribution",
+      name: "Visual Distribution",
       desc: "iTunes/Apple Music, Boomplay Video, Tidal & United Media Agency",
       price: "From NGN 20,000",
       unit: "per video",
       color: "text-gold",
       benefits: [
-        "VEVO Channel Set Up + First Video: NGN 100,000",
-        "VEVO Video Upload (existing channel): NGN 50,000",
-        "All Video Platforms + VEVO Setup: NGN 120,000",
-        "All Video Platforms + VEVO Upload: NGN 70,000",
+        "VEVO channel creation + debut video: NGN 100,000",
+        "VEVO upload (existing channel): NGN 50,000",
+        "All video platforms + VEVO creation: NGN 120,000",
+        "All video platforms + VEVO upload: NGN 70,000",
       ],
     },
   ],
@@ -177,47 +177,47 @@ const distributionPlans = {
 
 const promoCategories = [
   {
-    title: "Music Video Promotion",
+    title: "Video Broadcast Promotion",
     items: [
-      { name: "Soundcity Airplay: Regular Twice Daily", price: "NGN 700K" },
-      { name: "Soundcity Airplay: 6X Daily for 5 Weeks", price: "NGN 1.3M" },
-      { name: "MTV Base Airplay: 3X Weekly Play", price: "NGN 950K" },
-      { name: "Trace TV: One-time Play", price: "NGN 900K" },
-      { name: "Hip TV: One-time Play", price: "NGN 650K" },
-      { name: "Pop Central: One-time Play", price: "NGN 500K" },
+      { name: "Soundcity: Standard rotation (2× daily)", price: "NGN 700K" },
+      { name: "Soundcity: Heavy rotation (6× daily, 5 weeks)", price: "NGN 1.3M" },
+      { name: "MTV Base: Weekly rotation (3× per week)", price: "NGN 950K" },
+      { name: "Trace TV: Single broadcast", price: "NGN 900K" },
+      { name: "Hip TV: Single broadcast", price: "NGN 650K" },
+      { name: "Pop Central: Single broadcast", price: "NGN 500K" },
     ],
   },
   {
-    title: "Editorial Playlists",
+    title: "Editorial Playlist Submissions",
     items: [
-      { name: "Apple Music Editorial (0-4 playlists)", price: "NGN 300K" },
-      { name: "Spotify Editorial (0-2 playlists)", price: "NGN 250K" },
-      { name: "Audiomack Trending", price: "NGN 200K" },
-      { name: "Boomplay Editorial (4 Playlists)", price: "NGN 200K" },
-      { name: "Tidal Editorial Playlists", price: "NGN 350K" },
-      { name: "All Stores Combined", price: "NGN 1.3M" },
+      { name: "Apple Music editorial (up to 4 playlists)", price: "NGN 300K" },
+      { name: "Spotify editorial (up to 2 playlists)", price: "NGN 250K" },
+      { name: "Audiomack trending placement", price: "NGN 200K" },
+      { name: "Boomplay editorial (4 playlists)", price: "NGN 200K" },
+      { name: "Tidal editorial playlists", price: "NGN 350K" },
+      { name: "Full platform bundle", price: "NGN 1.3M" },
     ],
   },
   {
-    title: "User Curated Playlists",
+    title: "Independent Curator Playlists",
     items: [
-      { name: "Spotify Playlist (per song per playlist)", price: "NGN 25,000" },
-      { name: "Apple Music Playlist (per song per playlist)", price: "NGN 25,000" },
-      { name: "Audiomack Playlist (per song per playlist)", price: "NGN 20,000" },
-      { name: "Boomplay Playlist (per song per playlist)", price: "NGN 25,000" },
+      { name: "Spotify placement (per track, per playlist)", price: "NGN 25,000" },
+      { name: "Apple Music placement (per track, per playlist)", price: "NGN 25,000" },
+      { name: "Audiomack placement (per track, per playlist)", price: "NGN 20,000" },
+      { name: "Boomplay placement (per track, per playlist)", price: "NGN 25,000" },
     ],
   },
   {
-    title: "Exclusive Boomplay Promotions",
+    title: "Boomplay Feature Packages",
     items: [
-      { name: "Bronze Package (2M Impressions)", price: "NGN 300K" },
-      { name: "Silver Package (5M Impressions)", price: "NGN 650K" },
-      { name: "Gold Package (10M Impressions)", price: "NGN 1.3M" },
-      { name: "Diamond Package (15M Impressions)", price: "NGN 1.6M" },
+      { name: "Bronze tier (2M impressions)", price: "NGN 300K" },
+      { name: "Silver tier (5M impressions)", price: "NGN 650K" },
+      { name: "Gold tier (10M impressions)", price: "NGN 1.3M" },
+      { name: "Diamond tier (15M impressions)", price: "NGN 1.6M" },
     ],
   },
   {
-    title: "Charts",
+    title: "Chart Campaigns",
     items: [
       { name: "Apple Music: Top 100 Nigeria 🇳🇬", price: "NGN 7.5M" },
       { name: "Apple Music: Top 100 Ghana 🇬🇭", price: "NGN 5M" },
@@ -243,13 +243,13 @@ const Pricing = () => {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Pricing—The Cost Of Stardom
+            Transparent plans for every stage
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Elevate your music career with affordable pricing plans tailored for both independent artists and labels.
+            Whether you're dropping your debut single or managing a full roster, we have a plan that fits your goals and budget.
           </p>
           <a href="mailto:contactpromoboy@gmail.com" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
-            Contact Sales <ArrowRight size={18} />
+            Talk to our team <ArrowRight size={18} />
           </a>
         </div>
       </section>
@@ -257,7 +257,7 @@ const Pricing = () => {
       {/* Distribution Pricing */}
       <section className="py-20 px-4">
         <div className="container">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-10">Music Distribution</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-10">Release Delivery Plans</h2>
 
           {/* Tabs */}
           <div className="flex justify-center gap-2 mb-12">
@@ -282,7 +282,7 @@ const Pricing = () => {
               <div key={plan.name} className={`glass-card rounded-2xl p-8 relative ${"popular" in plan && plan.popular ? "ring-2 ring-primary" : ""}`}>
                 {"popular" in plan && plan.popular && (
                   <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-xs font-bold">
-                    Most Popular
+                    Recommended
                   </span>
                 )}
                 <h3 className="text-xl font-bold text-foreground mb-2">{plan.name}</h3>
@@ -306,7 +306,7 @@ const Pricing = () => {
       {/* Promo Pricing */}
       <section className="py-20 px-4">
         <div className="container">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-14">Promotion Pricing</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-14">Marketing & Promotion Rates</h2>
           <div className="space-y-12 max-w-4xl mx-auto">
             {promoCategories.map((cat) => (
               <div key={cat.title}>

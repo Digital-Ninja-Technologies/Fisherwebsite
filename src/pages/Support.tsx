@@ -11,36 +11,36 @@ import {
 
 const faqs = [
   {
-    q: "How long does it take to release my music?",
-    a: "It takes 3 - 7 working days to get songs through copyright moderation before they begin to appear on Digital Music Platforms. Please allow for this timeframe when choosing a release date.",
+    q: "What's the typical turnaround for a new release?",
+    a: "Releases generally go through a review process that takes 3–7 business days before appearing on streaming platforms. Keep this window in mind when selecting your launch date.",
   },
   {
-    q: "When and how will I get paid my royalties?",
-    a: "After a release goes live, stores send us reports on the streams. These reports start coming in 45 - 75 days after a release goes live. Once the earnings are above the $50 threshold, you can request a withdrawal and payment will be processed into your local bank account in 7 - 14 working days.",
+    q: "How do royalty payments work?",
+    a: "Streaming platforms send us earnings reports starting 45–75 days after your release goes live. Once your balance exceeds the $50 minimum threshold, you can request a payout, which is processed to your local bank within 7–14 business days.",
   },
   {
-    q: "Do I get to keep 100% of my earnings?",
-    a: "Yes, you get to keep 100% of your streaming royalties.",
+    q: "Will I keep all of my streaming revenue?",
+    a: "Absolutely — you retain 100% of your streaming royalties with no hidden deductions.",
   },
   {
-    q: "Are Editorial Playlists guaranteed?",
-    a: "No, editorial playlists are not guaranteed. While we can submit your music for consideration, placement ultimately depends on the curators' selection criteria. However, for Boomplay and Audiomack Editorial Playlists, we can get your song on them even if your release is live already.",
+    q: "Can you guarantee placement on editorial playlists?",
+    a: "Editorial playlist spots are never guaranteed since final decisions rest with each platform's curation team. That said, we actively pitch your music for consideration. For Boomplay and Audiomack editorials, we can secure placements even after your release is already live.",
   },
   {
-    q: "How can I promote my music to a wider audience?",
-    a: "We offer a wide range of promotional services including playlisting, radio and blog promotions, TikTok Campaigns and more. Visit the pricing section to see the services we offer.",
+    q: "What marketing options do you offer?",
+    a: "Our promotional suite spans playlist campaigns, radio and TV placements, blog features, TikTok influencer activations, and more. Check the pricing page for the full breakdown of available services.",
   },
   {
-    q: "What is a Pre-Save Link?",
-    a: "A Pre-save link allows your fans to save your release on their preferred streaming platform before it comes out on the release date.",
+    q: "What exactly is a pre-save link?",
+    a: "A pre-save link lets your audience save your upcoming release to their preferred streaming app before launch day, so it appears in their library automatically on release.",
   },
   {
-    q: "Are there any side effects of using your promotional services?",
-    a: "No. All the promotional services we provide are organically generated and we strongly kick against bot streams, false marketing or playlist manipulation on our platform.",
+    q: "Are your promotional methods safe for my account?",
+    a: "Yes. Every promotional service we provide uses organic, legitimate methods. We strictly prohibit bot-generated streams, misleading marketing, or any form of playlist manipulation.",
   },
   {
-    q: "How we handle Artificial (Bot) Streaming",
-    a: "Our streaming partners are committed to ensuring that all streams on their platforms are legitimate. If artificial streaming is detected, corrective action may include removing inflated streams, withholding royalties, or permanently deleting your catalog.",
+    q: "What happens if artificial streams are detected?",
+    a: "Streaming partners actively monitor for illegitimate activity. If artificial streams are found, consequences can include removal of inflated play counts, withholding of associated royalties, or permanent catalog deletion.",
   },
 ];
 
@@ -66,13 +66,13 @@ const Support = () => {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Need Any Help?
+            We're here to help
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Whether you have questions, need guidance, or run into issues, don't hesitate to reach out.
+            Got a question or running into something unexpected? Our team is just a message away.
           </p>
           <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold">
-            Contact Us <ArrowRight size={18} />
+            Get in touch <ArrowRight size={18} />
           </a>
         </div>
       </section>
@@ -98,12 +98,12 @@ const Support = () => {
       {/* Still need help */}
       <section className="py-20 px-4">
         <div className="container max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-foreground mb-4">Still Need Help?</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-4">Didn't find your answer?</h2>
           <p className="text-muted-foreground mb-8">
-            Can't find the answers you are looking for? You can contact us and we'd be able to answer any questions you have.
+            Reach out directly and we'll get back to you with the info you need.
           </p>
           <a href="https://wa.me/message/UAKWEBDKKOSVF1" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold mb-8">
-            Contact Us <ArrowRight size={18} />
+            Message us <ArrowRight size={18} />
           </a>
           <div className="flex flex-wrap gap-3 justify-center">
             {socials.map((s) => (

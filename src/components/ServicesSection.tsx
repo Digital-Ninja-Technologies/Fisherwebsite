@@ -3,23 +3,23 @@ import { Globe, Play, BarChart3, Headphones, ArrowRight } from "lucide-react";
 const services = [
   {
     icon: Globe,
-    title: "Distribution",
-    description: "Get your songs on Digital Stores worldwide and stay in control of your masters and earnings.",
+    title: "Release Delivery",
+    description: "Push your tracks to digital storefronts around the world while keeping your rights and revenue intact.",
   },
   {
     icon: Play,
-    title: "Playlisting Services",
-    description: "We have some of the best editorial and user curated playlists to help grow your audience.",
+    title: "Playlist Campaigns",
+    description: "Tap into curated and editorial playlists designed to put your sound in front of engaged listeners.",
   },
   {
     icon: BarChart3,
-    title: "Analytics",
-    description: "Track your streams, earnings, and audience growth with detailed analytics dashboards.",
+    title: "Performance Insights",
+    description: "Monitor plays, revenue, and listener demographics through intuitive real-time dashboards.",
   },
   {
     icon: Headphones,
-    title: "24/7 Support",
-    description: "Find the answers you need when you reach out to our dedicated support team.",
+    title: "Always-On Assistance",
+    description: "Our team is available around the clock to address questions and resolve issues promptly.",
   },
 ];
 
@@ -27,12 +27,12 @@ const ServicesSection = () => {
   return (
     <section className="py-20 px-4" id="distribution">
       <div className="container">
-        <p className="text-sm text-primary font-medium mb-3 text-center">What we offer</p>
+        <p className="text-sm text-primary font-medium mb-3 text-center">Our offerings</p>
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
-          Everything your music needs, all in one place
+          A complete toolkit for independent musicians
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
-          We help independent artists and labels reach their fullest potential—creatively and financially.
+          We empower solo artists and record labels to unlock their full creative and commercial potential.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -47,7 +47,7 @@ const ServicesSection = () => {
               <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
               <p className="text-sm text-muted-foreground mb-4">{service.description}</p>
               <a href="#" className="inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:gap-2 transition-all">
-                Learn <ArrowRight size={14} />
+                Explore <ArrowRight size={14} />
               </a>
             </div>
           ))}

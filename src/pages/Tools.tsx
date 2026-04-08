@@ -9,23 +9,23 @@ const tools = [
     icon: Calendar,
     emoji: "📅",
     title: "Release Planner",
-    desc: "Plan your music releases with a clear release calendar.",
-    status: "Launch Tool →",
+    desc: "Map out your upcoming drops with an intuitive release calendar.",
+    status: "Open Tool →",
     available: true,
   },
   {
     icon: Link2,
     emoji: "🔗",
-    title: "Bio Link Generator",
-    desc: "Create a beautiful link-in-bio page for all your music and social links.",
+    title: "Bio Link Builder",
+    desc: "Design a sleek link-in-bio page that houses all your music and socials.",
     status: "Coming Soon",
     available: false,
   },
   {
     icon: FileText,
     emoji: "📰",
-    title: "Press Kit Builder",
-    desc: "Generate professional press kits for media outreach and brand awareness.",
+    title: "Press Kit Creator",
+    desc: "Assemble polished press kits for media pitches and brand collaborations.",
     status: "Coming Soon",
     available: false,
   },
@@ -44,10 +44,10 @@ const Tools = () => {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Smart tools for your music releases
+            Purpose-built tools for music creators
           </h1>
           <p className="text-lg text-muted-foreground">
-            The best tools to help you plan, promote, and succeed with your music releases
+            Practical utilities to help you organize, promote, and execute your releases with confidence
           </p>
         </div>
       </section>
